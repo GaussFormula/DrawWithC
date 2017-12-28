@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using std::cout;
 const int width = 20;
 const int height = 20;
@@ -19,5 +20,5 @@ int main()
 }
 int f(int x, int y)
 {
-	return (x - 10)*(x - 10) + (y - 10)*(y - 10) < 8 * 8;
+	return x<=y;
 }
